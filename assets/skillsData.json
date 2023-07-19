@@ -1,0 +1,61 @@
+[
+  {
+    "type": "frontend",
+    "skills": [
+      {
+        "name": "ReactJS",
+        "iconClass": "devicon-react-original colored"
+      },
+      {
+        "name": "HTML5",
+        "iconClass": "devicon-html5-plain colored"
+      },
+      {
+        "name": "CSS3",
+        "iconClass": "devicon-css3-plain colored"
+      },
+      {
+        "name": "Bootstrap",
+        "iconClass": "devicon-bootstrap-plain colored"
+      }
+    ]
+  },
+  {
+    "type": "backend",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "iconClass": "devicon-javascript-plain colored"
+      },
+      {
+        "name": "Python",
+        "iconClass": "devicon-python-plain colored"
+      },
+      {
+        "name": "Java",
+        "iconClass": "devicon-java-plain colored"
+      },
+      {
+        "name": "Node.js",
+        "iconClass": "devicon-nodejs-plain-wordmark colored"
+      },
+      {
+        "name": "Express.js",
+        "iconClass": "devicon-express-original colored"
+      },
+      {
+        "name": "R",
+        "iconClass": "devicon-rstudio-plain colored"
+      }
+    ]
+  },
+  {
+    "type": "database",
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "iconClass": "devicon-postgresql-plain colored"
+      }
+    ]
+  }
+]
