@@ -1,3 +1,3 @@
-# Hello there!
+# Hello there! 
 
-Visit my portfolio at jallenyu.com!
+Checkout my website at [jallenyu.com](http://jallenyu.com/)!
