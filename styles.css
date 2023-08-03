@@ -480,7 +480,7 @@ footer p {
     gap: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--text-color);
+    background-color: var(--secondary-color);
     width: 100%;
     text-align: center;
     transition: 0.3s;
