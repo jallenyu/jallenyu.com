@@ -517,13 +517,3 @@ footer p {
     font-size: 1.25rem;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #e4eaf6;
-    --background-color: #071022;
-    --primary-color: #31466e;
-    --secondary-color: #0c1d40;
-    --accent-color: #4173d8;
-  }
-}

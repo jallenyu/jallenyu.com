@@ -1,7 +1,6 @@
 "use strict";
 
-(function() {
-
+(function () {
   window.addEventListener("load", init);
 
   function init() {
@@ -16,12 +15,26 @@
     let theme = localStorage.getItem("theme");
     let mode = id("mode");
     if (theme) {
-      console.log("adding dark theme from local storage");
       document.body.classList.add(theme);
       mode.classList.remove("fa-moon");
       mode.classList.add("fa-sun");
     }
+
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      enableDarkMode();
+    }
     mode.addEventListener("click", toggleMode);
+  }
+
+  function enableDarkMode() {
+    document.body.classList.add("dark-theme");
+    mode.classList.remove("fa-moon");
+    mode.classList.add("fa-sun");
+    localStorage.setItem("theme", "dark-theme");
+    document.documentElement.setAttribute("data-color-scheme", "dark");
   }
 
   function enableMobileNav() {
@@ -33,22 +46,24 @@
       navMenu.classList.toggle("active");
     });
 
-    qsa(".nav-link").forEach(element => element.addEventListener("click", () => {
-      hamburger.classList.remove("active");
-      navMenu.classList.remove("active");
-    }));
+    qsa(".nav-link").forEach((element) =>
+      element.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+      })
+    );
   }
 
   function fetchProjects() {
     fetch("./assets/projectsData.json")
-      .then(resp => resp.json())
+      .then((resp) => resp.json())
       .then(populateProjects)
       .catch(console.error);
   }
 
   function populateProjects(projects) {
     let projectsContainer = id("projects-container");
-    for(let i = 0; i < projects.length; i++) {
+    for (let i = 0; i < projects.length; i++) {
       let cardContainer = gen("div");
       cardContainer.classList.add("project-card-container");
       let card = gen("div");
@@ -79,7 +94,7 @@
     techUsed.classList.add("tech-container");
 
     let techList = project.techs;
-    for(let i = 0; i < techList.length; i++) {
+    for (let i = 0; i < techList.length; i++) {
       let badge = gen("img");
       badge.src = techList[i].badge;
       badge.alt = techList[i].tech;
@@ -96,7 +111,7 @@
 
     let backInfo = gen("div");
     backInfo.classList.add("project-back-info");
-    
+
     let longContainer = gen("div");
     let longLabel = gen("h3");
     longLabel.innerHTML = "more info:";
@@ -107,7 +122,7 @@
     let externalContainer = gen("div");
     externalContainer.classList.add("social", "center");
 
-    if(project.demo !== "") {
+    if (project.demo !== "") {
       let demo = gen("a");
       demo.href = project.demo;
       demo.target = "_blank";
@@ -117,8 +132,8 @@
       demo.appendChild(eyeIcon);
       externalContainer.appendChild(demo);
     }
-    
-    if(project.github !== "") {
+
+    if (project.github !== "") {
       let github = gen("a");
       github.href = project.github;
       github.target = "_blank";
@@ -136,17 +151,17 @@
 
   function fetchSkills() {
     fetch("./assets/skillsData.json")
-      .then(resp => resp.json())
+      .then((resp) => resp.json())
       .then(populateSkills)
       .catch(console.error);
   }
 
   function populateSkills(techSkills) {
-    for(let i = 0; i < techSkills.length; i++) {
+    for (let i = 0; i < techSkills.length; i++) {
       let query = "#" + techSkills[i].type + " .skills-container";
       let skillContainer = qs(query);
       let currSkills = techSkills[i].skills;
-      for(let j = 0; j < currSkills.length; j++) {
+      for (let j = 0; j < currSkills.length; j++) {
         let skillCard = genSkillCard(currSkills[j]);
         skillContainer.appendChild(skillCard);
       }
@@ -175,7 +190,7 @@
     document.body.classList.toggle("dark-theme");
 
     let mode = id("mode");
-    if(document.body.classList.contains("dark-theme")) {
+    if (document.body.classList.contains("dark-theme")) {
       mode.classList.remove("fa-moon");
       mode.classList.add("fa-sun");
       localStorage.setItem("theme", "dark-theme");
@@ -198,11 +213,15 @@
 
   function startTyped() {
     return new Typed("#typed", {
-      strings: ["I'm a software engineer", "I'm a back-end developer", "I'm a front-end developer", "I'm a full stack developer", "I'm a lifelong learner."],
-      typeSpeed: 55,
-      backSpeed: 55,
+      strings: [
+        "I'm a software engineer",
+        "I'm a full stack developer",
+        "I'm a lifelong learner.",
+      ],
+      typeSpeed: 45,
+      backSpeed: 35,
       smartBackspace: true,
-      loop: false
+      loop: false,
     });
   }
 
