@@ -23,11 +23,11 @@
   color-scheme: dark;
 }
 
-[data-color-scheme = "dark"] {
+[data-color-scheme="dark"] {
   color-scheme: dark;
 }
 
-[data-color-scheme = "light"] {
+[data-color-scheme="light"] {
   color-scheme: light;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -44,7 +44,7 @@ body {
 /* General */
 main {
   margin: auto;
-  width: 65%;
+  width: 70%;
 }
 
 .center {
@@ -111,21 +111,20 @@ p {
   padding: 0.5em;
 }
 
-
 .typed-cursor {
-  animation: blink .75s infinite;
+  animation: blink 0.75s infinite;
   color: var(--accent-color);
 }
 
 @keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -140,7 +139,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 1.2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 5px;
   z-index: 100;
 }
@@ -179,7 +179,7 @@ nav a {
 /* About */
 #pfp img {
   border-radius: 20px;
-  width: 35%;
+  width: 400px;
   height: auto;
 }
 
@@ -219,7 +219,7 @@ nav a {
 .project-card-container {
   position: relative;
   width: 340px;
-  height: 420px;
+  height: 400px;
 }
 
 .project-card {
@@ -250,11 +250,13 @@ nav a {
   align-items: center;
   height: 100%;
   width: 100%;
+  gap: 1em;
 }
 
-.project-front-info p {
+.project-front-info p,
+.project-front-info h3 {
   text-align: center;
-  padding: 1.25em;
+  padding: 0.25em;
 }
 
 .project-back {
@@ -367,13 +369,15 @@ footer p {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
   -webkit-animation-timing-function: ease-out, ease-in-out;
   animation-timing-function: ease-out, ease-in-out;
   -webkit-animation-iteration-count: 1, infinite;
@@ -386,23 +390,30 @@ footer p {
 
 .typewriter {
   overflow: hidden;
-  border-right: .15em solid var(--accent-color);
+  border-right: 0.15em solid var(--accent-color);
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .15em;
-  animation:
-    typing 1.5s steps(40, end),
-    blink-caret .75s infinite;
+  letter-spacing: 0.15em;
+  animation: typing 1.5s steps(40, end), blink-caret 0.75s infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-right-color: transparent }
-  50% { border-right-color: var(--accent-color); }
+  from,
+  to {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: var(--accent-color);
+  }
 }
 
 /* Responsive */
@@ -445,6 +456,12 @@ footer p {
     max-width: 640px;
   }
 
+  #pfp img {
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+  }
+
   .intro {
     font-size: 2.25rem;
   }
@@ -453,7 +470,8 @@ footer p {
     font-size: 2rem;
   }
 
-  h2, p {
+  h2,
+  p {
     font-size: 1rem;
   }
 
@@ -484,7 +502,8 @@ footer p {
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
 
   .nav-item {
@@ -515,5 +534,46 @@ footer p {
 
   .intro {
     font-size: 1.25rem;
+  }
+
+  #skills-info h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-card i {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2,
+  p {
+    font-size: 0.9rem;
+  }
+
+  .social {
+    font-size: 0.8rem;
+  }
+
+  .button {
+    padding: 12px 28px;
+    font-size: 13px;
+    border-radius: 4px;
+  }
+
+  #pfp img {
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
   }
 }

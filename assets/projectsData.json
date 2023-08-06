@@ -1,8 +1,8 @@
 [
   {
-    "name": "DetectiveTunes",
+    "name": "Detective Tunes",
     "short": "Music recognition and preview web app.",
-    "long": "DetectiveTunes is a user-friendly tool designed to enhance music accessibility. This web application enables users to discover music and stores previously detected songs in a relational database for future references.",
+    "long": "Detective Tunes is a user-friendly tool designed to enhance music accessibility. This web application enables users to discover music and stores previously detected songs in a relational database for future references.",
     "techs": [
       {
         "tech": "ReactJS",
