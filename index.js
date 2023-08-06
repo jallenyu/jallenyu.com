@@ -128,7 +128,7 @@
       demo.target = "_blank";
       demo.rel = "noopener noreferrer";
       let eyeIcon = gen("i");
-      eyeIcon.className = "fa-solid fa-eye fa-2xl";
+      eyeIcon.className = "fa-solid fa-eye fa-xl";
       demo.appendChild(eyeIcon);
       externalContainer.appendChild(demo);
     }
@@ -139,7 +139,7 @@
       github.target = "_blank";
       github.rel = "noopener noreferrer";
       let githubIcon = gen("i");
-      githubIcon.className = "fa-brands fa-github fa-2xl";
+      githubIcon.className = "fa-brands fa-github fa-xl";
       github.appendChild(githubIcon);
       externalContainer.appendChild(github);
     }

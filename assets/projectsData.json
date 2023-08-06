@@ -22,7 +22,7 @@
       },
       {
         "tech": "Node.js",
-        "badge": "https://img.shields.io/badge/-Node.js-339933?logo=node-dot-js&logoColor=white&style=for-the-badge"
+        "badge": "https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge"
       },
       {
         "tech": "Express.js",
@@ -107,6 +107,14 @@
       {
         "tech": "R",
         "badge": "https://img.shields.io/badge/-R-75AADB?logo=rstudio&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "HTML",
+        "badge": "https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "CSS",
+        "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
       }
     ],
     "demo": "https://allen2yu.shinyapps.io/MovieRecs/",
