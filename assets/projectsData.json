@@ -9,18 +9,6 @@
         "badge": "https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=white&style=for-the-badge"
       },
       {
-        "tech": "JavaScript",
-        "badge": "https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"
-      },
-      {
-        "tech": "HTML",
-        "badge": "https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "CSS",
-        "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
-      },
-      {
         "tech": "Node.js",
         "badge": "https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge"
       },
@@ -37,9 +25,9 @@
     "github": "https://github.com/allen11yu/detective-tunes"
   },
   {
-    "name": "Format Eraser",
-    "short": "A useful chrome extension.",
-    "long": "Format Eraser is a chrome extension that automatically clears the formatting on copied text, making it easier for users to copy and paste without carrying over unwanted formattings.",
+    "name": "jallenyu.com",
+    "short": "My personal website",
+    "long": "My personal portfolio website features my background, skill sets, and projects, all seamlessly integrated with responsive design principles to ensure smooth user experiences across various screen sizes.",
     "techs": [
       {
         "tech": "JavaScript",
@@ -54,8 +42,8 @@
         "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
       }
     ],
-    "demo": "",
-    "github": ""
+    "demo": "https://jallenyu.com/",
+    "github": "https://github.com/allen11yu/jallenyu.com"
   },
   {
     "name": "InterNet",
@@ -65,18 +53,6 @@
       {
         "tech": "ReactJS",
         "badge": "https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "JavaScript",
-        "badge": "https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"
-      },
-      {
-        "tech": "HTML",
-        "badge": "https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "CSS",
-        "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
       },
       {
         "tech": "Firebase",
