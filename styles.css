@@ -215,6 +215,10 @@ nav a {
   font-size: 5rem;
 }
 
+.skill-card p {
+  text-align: center;
+}
+
 /* Projects */
 .project-card-container {
   position: relative;

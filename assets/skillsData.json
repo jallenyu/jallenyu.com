@@ -57,5 +57,14 @@
         "iconClass": "devicon-postgresql-plain colored"
       }
     ]
+  },
+  {
+    "type": "cloud",
+    "skills": [
+      {
+        "name": "Amazon Web Services",
+        "iconClass": "devicon-amazonwebservices-plain-wordmark colored"
+      }
+    ]
   }
 ]

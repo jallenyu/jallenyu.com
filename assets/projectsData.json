@@ -19,6 +19,10 @@
       {
         "tech": "PostgreSQL",
         "badge": "https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "AWS",
+        "badge": "https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge"
       }
     ],
     "demo": "",
@@ -60,7 +64,7 @@
       }
     ],
     "demo": "https://internet-2c270.web.app/",
-    "github": ""
+    "github": "https://github.com/allen11yu/InterNet"
   },
   {
     "name": "Twitch Channel Analysis",
@@ -94,7 +98,7 @@
       }
     ],
     "demo": "https://allen2yu.shinyapps.io/MovieRecs/",
-    "github": ""
+    "github": "https://github.com/allen11yu/imdb-analysis"
   },
   {
     "name": "Unbeatable Tic-Tac-Toe",
