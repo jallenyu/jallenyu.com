@@ -1,10 +1,18 @@
 [
   {
-    "type": "frontend",
+    "type": "languages",
     "skills": [
       {
-        "name": "ReactJS",
-        "iconClass": "devicon-react-original colored"
+        "name": "Python",
+        "iconClass": "devicon-python-plain colored"
+      },
+      {
+        "name": "JavaScript",
+        "iconClass": "devicon-javascript-plain colored"
+      },
+      {
+        "name": "Java",
+        "iconClass": "devicon-java-plain colored"
       },
       {
         "name": "HTML5",
@@ -15,25 +23,29 @@
         "iconClass": "devicon-css3-plain colored"
       },
       {
-        "name": "Bootstrap",
-        "iconClass": "devicon-bootstrap-plain colored"
+        "name": "R",
+        "iconClass": "devicon-rstudio-plain colored"
+      },
+      {
+        "name": "Dart",
+        "iconClass": "devicon-dart-plain colored"
+      },
+      {
+        "name": "C",
+        "iconClass": "devicon-c-plain colored"
+      },
+      {
+        "name": "C++",
+        "iconClass": "devicon-cplusplus-plain colored"
       }
     ]
   },
   {
-    "type": "backend",
+    "type": "frameworks-libraries",
     "skills": [
       {
-        "name": "JavaScript",
-        "iconClass": "devicon-javascript-plain colored"
-      },
-      {
-        "name": "Python",
-        "iconClass": "devicon-python-plain colored"
-      },
-      {
-        "name": "Java",
-        "iconClass": "devicon-java-plain colored"
+        "name": "React.js",
+        "iconClass": "devicon-react-original colored"
       },
       {
         "name": "Node.js",
@@ -44,8 +56,12 @@
         "iconClass": "devicon-express-original colored"
       },
       {
-        "name": "R",
-        "iconClass": "devicon-rstudio-plain colored"
+        "name": "Bootstrap",
+        "iconClass": "devicon-bootstrap-plain colored"
+      },
+      {
+        "name": "Flutter",
+        "iconClass": "devicon-flutter-plain colored"
       }
     ]
   },
@@ -55,6 +71,10 @@
       {
         "name": "PostgreSQL",
         "iconClass": "devicon-postgresql-plain colored"
+      },
+      {
+        "name": "Firebase",
+        "iconClass": "devicon-firebase-plain colored"
       }
     ]
   },
@@ -63,7 +83,11 @@
     "skills": [
       {
         "name": "Amazon Web Services",
-        "iconClass": "devicon-amazonwebservices-plain-wordmark colored"
+        "iconClass": "devicon-amazonwebservices-plain colored"
+      },
+      {
+        "name": "Google Cloud",
+        "iconClass": "devicon-googlecloud-plain colored"
       }
     ]
   }
