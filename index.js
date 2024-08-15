@@ -215,8 +215,7 @@
     return new Typed("#typed", {
       strings: [
         "I'm a software engineer",
-        "I'm a full stack developer",
-        "I'm a lifelong learner.",
+        "I'm experienced with full stack development."
       ],
       typeSpeed: 45,
       backSpeed: 35,

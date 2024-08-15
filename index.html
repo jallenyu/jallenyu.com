@@ -1,201 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="index.js"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Allen Yu :: Developer</title>
-  </head>
-  <body>
-    <section id="home" class="container">
-      <div>
-        <p class="intro center">Hello, I'm Junhong. I go by Allen.</p>
-      </div>
-      <div>
-        <p class="intro center"><span id="typed"></span></p>
-      </div>
-      <div class="hvr-bob" id="resume-btn">
-        <a
-          href="./assets/Junhong_Allen_Yu_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button"
-          >Résumé</a
-        >
-      </div>
-      <div class="social">
-        <a
-          href="https://www.linkedin.com/in/allen11yu/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-linkedin fa-xl"></i
-        ></a>
-        <a
-          href="https://github.com/allen11yu"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-github fa-xl"></i
-        ></a>
-        <a href="mailto:yu.junhong02@gmail.com"
-          ><i class="fa-solid fa-envelope fa-xl"></i
-        ></a>
-      </div>
 
-      <div id="more-arrow">
-        <a href="#about"
-          ><i class="fa-solid fa-angles-down fa-bounce fa-lg"></i
-        ></a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Allen Yu | SWE</title>
+</head>
+
+<body>
+  <section id="home" class="container">
+    <div>
+      <p class="intro center">Hello friend, I'm Allen.</p>
+    </div>
+    <div>
+      <p class="intro center"><span id="typed"></span></p>
+    </div>
+    <div class="hvr-bob" id="resume-btn">
+      <a href="./assets/Junhong_Allen_Yu_Resume.pdf" target="_blank" rel="noopener noreferrer" class="button">Resume</a>
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/allen11yu/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin fa-xl"></i></a>
+      <a href="https://github.com/allen11yu" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-github fa-xl"></i></a>
+      <a href="mailto:yu.junhong02@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+    </div>
+
+    <div id="more-arrow">
+      <a href="#about"><i class="fa-solid fa-angles-down fa-bounce fa-lg"></i></a>
+    </div>
+  </section>
+
+  <nav>
+    <div id="typewriter-container">
+      <a href="#home">
+        <p class="typewriter" id="home-text">&gt;allen_yu</p>
+      </a>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item">
+        <a href="#projects" class="nav-link">Projects</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-moon fa-lg nav-link" id="mode"></i>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="container">
+      <h1 class="center">About</h1>
+      <h2 class="center">
+        Pleasure to meet you!
+        <img
+          src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
+          alt="Waving Hand Medium-Light Skin Tone" width="25" height="25" />
+      </h2>
+      <br />
+      <div id="about-info-container">
+        <div id="pfp" class="center">
+          <img src="img/allen_pfp.jpg" alt="profile picture" />
+        </div>
+        <br />
+        <div id="about-me">
+          <p>
+            My passion for software engineering lies in the combination of
+            creative thinking with the tangible satisfaction of transforming
+            one’s mental product into a system for the real world.
+          </p>
+          <p>
+            Currently, I’m pursuing a master’s degree in computer science at
+            the Georgia Institute of Technology. Through this program, I aim
+            to broaden my CS horizons and eventually apply those learnings
+            into my workplace.
+          </p>
+          <p>
+            Just like an artist with a paint brush, developers can create
+            impactful innovative solutions with just time and a computer. I
+            aspired to explore software development opportunities, leveraging
+            my technical background to build collaborative and dependable
+            services, applications, and websites.
+          </p>
+        </div>
       </div>
     </section>
 
-    <nav>
-      <div id="typewriter-container">
-        <a href="#home"
-          ><p class="typewriter" id="home-text">&gt;allen_yu</p></a
-        >
-      </div>
-      <ul class="nav-menu">
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item">
-          <a href="#projects" class="nav-link">Projects</a>
-        </li>
-        <li class="nav-item">
-          <i class="fa-solid fa-moon fa-lg nav-link" id="mode"></i>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-
-    <main>
-      <section id="about" class="container">
-        <h1 class="center">About</h1>
-        <h2 class="center">
-          Pleasure to meet you!
-          <img
-            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
-            alt="Waving Hand Medium-Light Skin Tone"
-            width="25"
-            height="25"
-          />
-        </h2>
-        <br />
-        <div id="about-info-container">
-          <div id="pfp" class="center">
-            <img src="img/allen_pfp.jpg" alt="profile picture" />
-          </div>
-          <br />
-          <div id="about-me">
-            <p>
-              My passion for software engineering lies in the combination of
-              creative thinking with the tangible satisfaction of transforming
-              one’s mental product into a system for the real world.
-            </p>
-            <p>
-              Currently, I’m pursuing a master’s degree in computer science at
-              the Georgia Institute of Technology. Through this program, I aim
-              to broaden my CS horizons and eventually apply those learnings
-              into my workplace.
-            </p>
-            <p>
-              Just like an artist with a paint brush, developers can create
-              impactful innovative solutions with just time and a computer. I
-              aspired to explore software development opportunities, leveraging
-              my technical background to build collaborative and dependable
-              services, applications, and websites.
-            </p>
-          </div>
+    <section id="skills" class="container">
+      <h1 class="center">Skills</h1>
+      <h2 class="center">
+        My expertise.
+        <img
+          src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Flexed%20Biceps%20Medium-Light%20Skin%20Tone.png"
+          alt="Flexed Biceps Medium-Light Skin Tone" width="25" height="25" />
+      </h2>
+      <br />
+      <div id="skills-info">
+        <div id="languages">
+          <h2>Languages</h2>
+          <div class="skills-container"></div>
         </div>
-      </section>
-
-      <section id="skills" class="container">
-        <h1 class="center">Skills</h1>
-        <h2 class="center">
-          My expertise.
-          <img
-            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Flexed%20Biceps%20Medium-Light%20Skin%20Tone.png"
-            alt="Flexed Biceps Medium-Light Skin Tone"
-            width="25"
-            height="25"
-          />
-        </h2>
         <br />
-        <div id="skills-info">
-          <div id="languages">
-            <h2>Languages</h2>
-            <div class="skills-container"></div>
-          </div>
-          <br />
-          <div id="frameworks-libraries">
-            <h2>Frameworks & Libraries</h2>
-            <div class="skills-container"></div>
-          </div>
-          <br />
-          <div id="database">
-            <h2>Database</h2>
-            <div class="skills-container"></div>
-          </div>
-          <br />
-          <div id="cloud">
-            <h2>Cloud</h2>
-            <div class="skills-container"></div>
-          </div>
+        <div id="frameworks-libraries">
+          <h2>Frameworks & Libraries</h2>
+          <div class="skills-container"></div>
         </div>
-      </section>
-
-      <section id="projects" class="container">
-        <h1 class="center">Projects</h1>
-        <h2 class="center">
-          My side projects.
-          <img
-            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png"
-            alt="Alien Monster"
-            width="25"
-            height="25"
-          />
-        </h2>
         <br />
-        <div id="projects-container"></div>
-      </section>
-    </main>
-
-    <footer class="center container">
-      <div class="social">
-        <a
-          href="https://www.linkedin.com/in/allen11yu/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-linkedin fa-xl"></i
-        ></a>
-        <a
-          href="https://github.com/allen11yu"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-github fa-xl"></i
-        ></a>
-        <a href="mailto:yu.junhong02@gmail.com"
-          ><i class="fa-solid fa-envelope fa-xl"></i
-        ></a>
+        <div id="database">
+          <h2>Database</h2>
+          <div class="skills-container"></div>
+        </div>
+        <br />
+        <div id="cloud">
+          <h2>Cloud</h2>
+          <div class="skills-container"></div>
+        </div>
       </div>
-      <p>Junhong Yu &copy;2023</p>
-    </footer>
-  </body>
+    </section>
+
+    <section id="projects" class="container">
+      <h1 class="center">Projects</h1>
+      <h2 class="center">
+        My side projects.
+        <img
+          src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png"
+          alt="Alien Monster" width="25" height="25" />
+      </h2>
+      <br />
+      <div id="projects-container"></div>
+    </section>
+  </main>
+
+  <footer class="center container">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/allen11yu/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin fa-xl"></i></a>
+      <a href="https://github.com/allen11yu" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-github fa-xl"></i></a>
+      <a href="mailto:yu.junhong02@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+    </div>
+    <p>If you are reading this, you are amazing!</p>
+  </footer>
+</body>
+
 </html>
