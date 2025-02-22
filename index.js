@@ -214,8 +214,8 @@
   function startTyped() {
     return new Typed("#typed", {
       strings: [
-        "I'm a software engineer",
-        "I'm experienced with full stack development."
+        "currently a MSCS student",
+        "experienced with full-stack development."
       ],
       typeSpeed: 45,
       backSpeed: 35,
