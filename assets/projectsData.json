@@ -1,120 +1,61 @@
 [
   {
-    "name": "Detective Tunes",
-    "short": "Music recognition and preview web app.",
-    "long": "Detective Tunes is a user-friendly tool designed to enhance music accessibility. This web application enables users to discover music and stores previously detected songs in a relational database for future references.",
+    "name": "Tune Snip",
+    "short": "Music recognition and search",
+    "long": "A full-stack web app designed to enhance music discovery and accessibility. Users can search for and identify songs, with detected tracks automatically stored in a NoSQL database for future reference. Additionally, the app offers personalized song recommendations based on user preferences.",
     "techs": [
       {
-        "tech": "ReactJS",
-        "badge": "https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=white&style=for-the-badge"
+        "tech": "React",
+        "badge": "https://img.shields.io/badge/-React-0c1d40?logo=react&logoColor=white&style=for-the-badge"
       },
       {
-        "tech": "Node.js",
-        "badge": "https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "Express.js",
-        "badge": "https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "PostgreSQL",
-        "badge": "https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "AWS",
-        "badge": "https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge"
-      }
-    ],
-    "demo": "https://main.d3sxio79agh106.amplifyapp.com/",
-    "github": "https://github.com/allen11yu/detective-tunes"
-  },
-  {
-    "name": "jallenyu.com",
-    "short": "My personal website",
-    "long": "My personal portfolio website features my background, skill sets, and projects, all seamlessly integrated with responsive design principles to ensure smooth user experiences across various screen sizes.",
-    "techs": [
-      {
-        "tech": "JavaScript",
-        "badge": "https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"
-      },
-      {
-        "tech": "HTML",
-        "badge": "https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "CSS",
-        "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
-      }
-    ],
-    "demo": "https://jallenyu.com/",
-    "github": "https://github.com/allen11yu/jallenyu.com"
-  },
-  {
-    "name": "InterNet",
-    "short": "Internship finding and matching service.",
-    "long": "I collaborated with 3 other teammates to design and implement a web application to facilitate the search for suitable internships for students. The platform provides a diverse range of available internships and utilizes each user's background to match them with appropriate opportunities.",
-    "techs": [
-      {
-        "tech": "ReactJS",
-        "badge": "https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=white&style=for-the-badge"
+        "tech": "Flask",
+        "badge": "https://img.shields.io/badge/-Flask-0c1d40?logo=flask&logoColor=white&style=for-the-badge"
       },
       {
         "tech": "Firebase",
-        "badge": "https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white&style=for-the-badge"
-      }
-    ],
-    "demo": "https://internet-7e208.web.app/",
-    "github": "https://github.com/allen11yu/InterNet"
-  },
-  {
-    "name": "Twitch Channel Analysis",
-    "short": "Quantitative analysis on various Twitch channels.",
-    "long": "I led a team of two in collecting Twitch channel data from SullyGenome.com and conducting quantitative analysis. Leveraging libraries such as Beautiful Soup, Pandas, Matplotlib, and Seaborn, we efficiently web scraped channel statistics and produced informative visualization to address our research questions.",
-    "techs": [
-      {
-        "tech": "Python",
-        "badge": "https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge"
-      }
-    ],
-    "demo": "https://github.com/allen11yu/twitch-analysis/blob/main/final_report.pdf",
-    "github": "https://github.com/allen11yu/twitch-analysis"
-  },
-  {
-    "name": "Movie Recommendation System",
-    "short": "Analyzing IMDb datasets.",
-    "long": "I collaborated with a team of four to analyze IMDb datasets, which included over 1,000 movies. Our objective was to develop a movie recommendation system aimed at enhancing user experience and engagement.",
-    "techs": [
-      {
-        "tech": "R",
-        "badge": "https://img.shields.io/badge/-R-75AADB?logo=rstudio&logoColor=white&style=for-the-badge"
+        "badge": "https://img.shields.io/badge/-Firebase-0c1d40?logo=firebase&logoColor=white&style=for-the-badge"
       },
       {
-        "tech": "HTML",
-        "badge": "https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge"
+        "tech": "MongoDB",
+        "badge": "https://img.shields.io/badge/-MongoDB-0c1d40?logo=mongodb&logoColor=white&style=for-the-badge"
       },
       {
-        "tech": "CSS",
-        "badge": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge"
+        "tech": "Docker",
+        "badge": "https://img.shields.io/badge/-Docker-0c1d40?logo=docker&logoColor=white&style=for-the-badge"
       }
     ],
-    "demo": "https://allen2yu.shinyapps.io/MovieRecs/",
-    "github": "https://github.com/allen11yu/imdb-analysis"
+    "demo": "https://main.d3sxio79agh106.amplifyapp.com/",
+    "github": "https://github.com/allen11yu/tune-snip"
   },
   {
-    "name": "Unbeatable Tic-Tac-Toe",
-    "short": "Player against unbeatable AI in a game of Tic-Tac-Toe.",
-    "long": "Leveraging my knowledge from an AI course, I implemented an AI that plays Tic-Tac-Toe using the Minimax algorithm, a popular decision-making algorithm. To optimize search runtime, I integrated the Alpha-beta pruning algorithm. The AI showcases efficient gameplay and strategic decision-making.",
+    "name": "Cosmic Crusaders",
+    "short": "Space shooter game",
+    "long": "Collaborated with a team of 6 to develop a space shooting game featuring AI-powered enemies. Players can explore the environment, shoot asteroids for loot, and purchase power-ups at the in-game shop.",
     "techs": [
       {
-        "tech": "Flutter",
-        "badge": "https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge"
+        "tech": "Unity",
+        "badge": "https://img.shields.io/badge/-Unity-0c1d40?logo=unity&logoColor=white&style=for-the-badge"
       },
       {
-        "tech": "Dart",
-        "badge": "https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge"
+        "tech": "C#",
+        "badge": "https://img.shields.io/badge/-C%23-0c1d40?logo=csharp&logoColor=white&style=for-the-badge"
+      }
+    ],
+    "demo": "https://cosmic-crusaders.netlify.app/",
+    "github": "https://github.com/allen11yu/cosmic-crusaders"
+  },
+  {
+    "name": "gRPC and Distributed File System",
+    "short": "Efficient file management with gRPC",
+    "long": "Implemented synchronous and asynchronous gRPC for remote procedure calls (RPCs) in file management. The application optimizes data transfer with chunking, ensures synchronization with mutexes to prevent race conditions, and improves file handling using write locks and unordered maps.",
+    "techs": [
+      {
+        "tech": "C++",
+        "badge": "https://img.shields.io/badge/-C++-0c1d40?logo=cplusplus&logoColor=white&style=for-the-badge"
       }
     ],
     "demo": "",
-    "github": "https://github.com/allen11yu/unbeatable-tictactoe"
+    "github": "https://github.com/allen11yu/grpc-dfs"
   }
 ]

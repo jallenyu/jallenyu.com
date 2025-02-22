@@ -11,6 +11,10 @@
         "iconClass": "devicon-javascript-plain colored"
       },
       {
+        "name": "TypeScript",
+        "iconClass": "devicon-typescript-plain colored"
+      },
+      {
         "name": "Java",
         "iconClass": "devicon-java-plain colored"
       },
@@ -23,20 +27,16 @@
         "iconClass": "devicon-css3-plain colored"
       },
       {
-        "name": "R",
-        "iconClass": "devicon-rstudio-plain colored"
-      },
-      {
-        "name": "Dart",
-        "iconClass": "devicon-dart-plain colored"
-      },
-      {
         "name": "C",
         "iconClass": "devicon-c-plain colored"
       },
       {
         "name": "C++",
         "iconClass": "devicon-cplusplus-plain colored"
+      },
+      {
+        "name": "C#",
+        "iconClass": "devicon-csharp-plain colored"
       }
     ]
   },
@@ -44,50 +44,70 @@
     "type": "frameworks-libraries",
     "skills": [
       {
-        "name": "React.js",
+        "name": "React",
         "iconClass": "devicon-react-original colored"
       },
       {
-        "name": "Node.js",
-        "iconClass": "devicon-nodejs-plain-wordmark colored"
+        "name": "gRPC",
+        "iconClass": "devicon-grpc-plain colored"
       },
       {
-        "name": "Express.js",
-        "iconClass": "devicon-express-original colored"
+        "name": "Flask",
+        "iconClass": "devicon-flask-original"
       },
       {
-        "name": "Bootstrap",
-        "iconClass": "devicon-bootstrap-plain colored"
+        "name": "Spring Boot",
+        "iconClass": "devicon-spring-original colored"
       },
       {
-        "name": "Flutter",
-        "iconClass": "devicon-flutter-plain colored"
+        "name": "Hibernate",
+        "iconClass": "devicon-hibernate-plain colored"
+      },
+      {
+        "name": "JUnit",
+        "iconClass": "devicon-junit-plain colored"
+      },
+      {
+        "name": "Tailwind CSS",
+        "iconClass": "devicon-tailwindcss-original colored"
       }
     ]
   },
   {
-    "type": "database",
+    "type": "databases-clouds",
     "skills": [
       {
         "name": "PostgreSQL",
         "iconClass": "devicon-postgresql-plain colored"
       },
       {
+        "name": "MongoDB",
+        "iconClass": "devicon-mongodb-plain colored"
+      },
+      {
+        "name": "SQLite",
+        "iconClass": "devicon-sqlite-plain colored"
+      },
+      {
         "name": "Firebase",
         "iconClass": "devicon-firebase-plain colored"
+      },
+      {
+        "name": "Amazon Web Services",
+        "iconClass": "devicon-amazonwebservices-plain colored"
       }
     ]
   },
   {
-    "type": "cloud",
+    "type": "tools",
     "skills": [
       {
-        "name": "Amazon Web Services",
-        "iconClass": "devicon-amazonwebservices-plain colored"
+        "name": "Docker",
+        "iconClass": "devicon-docker-plain colored"
       },
       {
-        "name": "Google Cloud",
-        "iconClass": "devicon-googlecloud-plain colored"
+        "name": "Git",
+        "iconClass": "devicon-git-plain colored"
       }
     ]
   }
