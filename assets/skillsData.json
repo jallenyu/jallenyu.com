@@ -95,6 +95,10 @@
       {
         "name": "Amazon Web Services",
         "iconClass": "devicon-amazonwebservices-plain colored"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "iconClass": "devicon-googlecloud-plain colored"
       }
     ]
   },

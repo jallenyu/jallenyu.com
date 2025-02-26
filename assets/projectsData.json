@@ -23,9 +23,13 @@
       {
         "tech": "Docker",
         "badge": "https://img.shields.io/badge/-Docker-0c1d40?logo=docker&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "Google Cloud Platform",
+        "badge": "https://img.shields.io/badge/Google_Cloud-0c1d40?style=for-the-badge&logo=google-cloud&logoColor=white"
       }
     ],
-    "demo": "https://main.d3sxio79agh106.amplifyapp.com/",
+    "demo": "https://tune-snip.netlify.app/",
     "github": "https://github.com/allen11yu/tune-snip"
   },
   {
