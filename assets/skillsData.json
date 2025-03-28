@@ -7,16 +7,16 @@
         "iconClass": "devicon-python-plain colored"
       },
       {
+        "name": "Java",
+        "iconClass": "devicon-java-plain colored"
+      },
+      {
         "name": "JavaScript",
         "iconClass": "devicon-javascript-plain colored"
       },
       {
         "name": "TypeScript",
         "iconClass": "devicon-typescript-plain colored"
-      },
-      {
-        "name": "Java",
-        "iconClass": "devicon-java-plain colored"
       },
       {
         "name": "HTML5",
@@ -48,6 +48,10 @@
         "iconClass": "devicon-react-original colored"
       },
       {
+        "name": "Next.js",
+        "iconClass": "devicon-nextjs-plain"
+      },
+      {
         "name": "gRPC",
         "iconClass": "devicon-grpc-plain colored"
       },
@@ -62,10 +66,6 @@
       {
         "name": "Hibernate",
         "iconClass": "devicon-hibernate-plain colored"
-      },
-      {
-        "name": "JUnit",
-        "iconClass": "devicon-junit-plain colored"
       },
       {
         "name": "Tailwind CSS",
@@ -83,14 +83,6 @@
       {
         "name": "MongoDB",
         "iconClass": "devicon-mongodb-plain colored"
-      },
-      {
-        "name": "SQLite",
-        "iconClass": "devicon-sqlite-plain colored"
-      },
-      {
-        "name": "Firebase",
-        "iconClass": "devicon-firebase-plain colored"
       },
       {
         "name": "Amazon Web Services",
@@ -112,6 +104,10 @@
       {
         "name": "Git",
         "iconClass": "devicon-git-plain colored"
+      },
+      {
+        "name": "Postman",
+        "iconClass": "devicon-postman-plain colored"
       }
     ]
   }

@@ -1,5 +1,30 @@
 [
   {
+    "name": "Report Tracker",
+    "short": "Simplifying report tracking",
+    "long": "The calendar-based report tracker app allows users to easily manage and track their reports. With filtering options for inspection and due dates, it simplifies the process of staying organized and ensuring timely submissions.",
+    "techs": [
+      {
+        "tech": "Next.js",
+        "badge": "https://img.shields.io/badge/-Next.js-0c1d40?logo=nextdotjs&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "Flask",
+        "badge": "https://img.shields.io/badge/-Spring_Boot-0c1d40?logo=springboot&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "MongoDB",
+        "badge": "https://img.shields.io/badge/-PostgreSQL-0c1d40?logo=postgresql&logoColor=white&style=for-the-badge"
+      },
+      {
+        "tech": "AWS",
+        "badge": "https://img.shields.io/badge/-AWS-0c1d40?style=for-the-badge&logo=amazonwebservices&logoColor=white"
+      }
+    ],
+    "demo": "https://reporttracker.netlify.app/demo",
+    "github": "https://github.com/allen11yu/report-tracker"
+  },
+  {
     "name": "Tune Snip",
     "short": "Music recognition and search",
     "long": "A full-stack web app designed to enhance music discovery and accessibility. Users can search for and identify songs, with detected tracks automatically stored in a NoSQL database for future reference. Additionally, the app offers personalized song recommendations based on user preferences.",
@@ -11,10 +36,6 @@
       {
         "tech": "Flask",
         "badge": "https://img.shields.io/badge/-Flask-0c1d40?logo=flask&logoColor=white&style=for-the-badge"
-      },
-      {
-        "tech": "Firebase",
-        "badge": "https://img.shields.io/badge/-Firebase-0c1d40?logo=firebase&logoColor=white&style=for-the-badge"
       },
       {
         "tech": "MongoDB",
@@ -51,7 +72,7 @@
   },
   {
     "name": "gRPC and Distributed File System",
-    "short": "Efficient file management with gRPC",
+    "short": "Efficient file management",
     "long": "Implemented synchronous and asynchronous gRPC for remote procedure calls (RPCs) in file management. The application optimizes data transfer with chunking, ensures synchronization with mutexes to prevent race conditions, and improves file handling using write locks and unordered maps.",
     "techs": [
       {
