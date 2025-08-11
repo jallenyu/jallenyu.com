@@ -1,0 +1,50 @@
+[
+    {
+        "rank": 1,
+        "title": "Report Tracker",
+        "description": "I notice that many contractor companies still uses Excel or Google Sheets to track inspection report progress, which can be messy as the reports piling up. To simplify this process, I built a calendar-based report tracker app with a focus on being user-friendly and intuitive. As a result, an environmental company leveraged my app to better manage and track over 500 inspection reports.",
+        "techstack": [
+            "React",
+            "Java (Spring Boot, Hibernate)",
+            "PostgreSQL",
+            "AWS (RDS, Elastic BeanStalk)"
+        ],
+        "github": "https://github.com/jallenyu/report-tracker",
+        "demo": "https://reporttracker.netlify.app/demo"
+    },
+    {
+        "rank": 2,
+        "title": "Tune Snip",
+        "description": "A full-stack web app designed to enhance music discovery and accessibility. Users can identify and search for songs while the app offers personalized recommendations.",
+        "techstack": [
+            "React",
+            "Python (Flask)",
+            "MongoDB NoSQL",
+            "GCP (Cloud Run)"
+        ],
+        "github": "https://github.com/jallenyu/report-tracker",
+        "demo": "https://tune-snip.netlify.app/"
+    },
+    {
+        "rank": 3,
+        "title": "Cosmic Crusaders",
+        "description": "Collaborated with a team of 6 to develop a space shooting game with AI enemies. Players can explore the environment, shoot asteroids for loot, and purchase power-ups at the in-game shop.",
+        "techstack": [
+            "C#",
+            "Unity"
+        ],
+        "github": "https://github.com/jallenyu/cosmic-crusaders",
+        "demo": "https://cosmic-crusaders.netlify.app/"
+    },
+    {
+        "rank": 4,
+        "title": "Distributed File System",
+        "description": "Implemented synchronous and asynchronous gRPC functions to manage file transfers between server and clients.",
+        "techstack": [
+            "C++",
+            "gRPC"
+        ],
+        "github": "https://github.com/jallenyu/grpc-dfs",
+        "demo": ""
+    }
+]
